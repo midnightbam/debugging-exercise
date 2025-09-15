@@ -1,9 +1,5 @@
 function isEven(num) {
-  if (num % 2 === 1) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 0;
 }
 
 // ตัวอย่างการทำงานที่ถูกต้อง
